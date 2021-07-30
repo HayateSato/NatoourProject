@@ -67,6 +67,12 @@ body {
 
     animation-name: moveInLeft; 
     animation-duration: 1s;
+  
+   
+    /* 
+    animation-delay: 3s;  //animation happnes three seconds after the reload
+    animation-iteration-count: 3; // animation repeats three times 
+    */
 }
 
 .heading-primary-sub {
