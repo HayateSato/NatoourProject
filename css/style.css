@@ -65,10 +65,10 @@ body {
     font-weight: 400;
     letter-spacing: 35px;
 
-    animation-name: moveInLeft; 
+    animation-name: moveInLeft;  
+    /* you need to make the link to which selector you want the animation to happen */
     animation-duration: 1s;
     animation-timing-function: ease-out;
-  
    
     /* 
     animation-delay: 3s;  //animation happnes three seconds after the reload
@@ -81,26 +81,41 @@ body {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 17.4px;
+
+    animation: moveInRight 1s ease-out;
+    /* you can shorten the properties and to have them like this works too */
 }
 
 @keyframes moveInLeft {
     0% {
         opacity: 0;
         transform: translateX(-100px);
-
     }
 
     80% {
         transform: translateX(5px);
-
-
     }
 
     100% {
         opacity: 1;
         transform: translate(0);
+    }
 
+}
 
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
     }
 
 }
