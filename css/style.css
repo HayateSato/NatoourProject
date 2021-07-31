@@ -57,6 +57,9 @@ body {
 .heading-primary {
     color: #fff;
     text-transform: uppercase;
+
+    backface-visibility: hidden;
+    /* the usage of this property is normmaly for different purpose but here its used to get rid of the shaking at the end of the animation */
 }
 
 .heading-primary-main {
