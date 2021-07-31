@@ -137,18 +137,22 @@ body {
     padding: 15px 40px;
     display: inline-block;
     border-radius: 100px;
+    transition: all .2s;
 }
 
+
 .btn:hover {
-    transform: translateY(-3);
+    transform: translateY(-30);
     /*     
     positive number goes from top to bottom
     so if you want it to go up from bottom, then use negative number 
     */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
 }
 
 .btn:active {
     transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
 }
 
 .btn-white {
