@@ -142,16 +142,17 @@ body {
 }
 
 
-.btn:hover {
+/* .btn:hover {
     transform: translateY(-3px);
-    /*     
+
     positive number goes from top to bottom
     so if you want it to go up from bottom, then use negative number 
-    */
+
     box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-}
+} */
 
 .btn:active {
+    /* :active -> the following happens when you click the btn */
     transform: translateY(-1px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
 }
@@ -171,6 +172,7 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
+    transition: all .4s;
 
 }
 
@@ -179,7 +181,7 @@ body {
 }
 
 .btn:hover::after {
-    transform: scale(1.5);
-
+    transform: scaleX(1.5) scaleY(1.6);
+    opacity: 0;
 }
-
+ 
