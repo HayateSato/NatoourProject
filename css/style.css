@@ -142,7 +142,7 @@ body {
 
 
 .btn:hover {
-    transform: translateY(-30);
+    transform: translateY(-10px);
     /*     
     positive number goes from top to bottom
     so if you want it to go up from bottom, then use negative number 
