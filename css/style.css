@@ -51,9 +51,9 @@ body {
     left: 4rem;
 }
 
-.header__logo {
+/* .header__logo {
     height: 3.5rem;
-}
+} */
 
 /* .header__logo-box:hover {
     animation: moveInRight 1s ease-out;
@@ -192,7 +192,6 @@ body {
     left: 0;
     z-index: -1;
     transition: all .4s;
-
 }
 
 .btn--white::after {
@@ -208,3 +207,41 @@ body {
     animation: moveInBottom .5s ease-out .5s;
     animation-fill-mode: backwards;
 }
+
+
+.header__logo {
+    height: 3.5rem;
+}
+
+.header__logo--green {
+    color: green;
+}
+
+.header__logo::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.header__logo--green::after {
+    color: green;
+}
+
+.header__logo:hover::after {
+    transform: scaleX(2) scaleY(2);
+    opacity: 0;
+}
+
+ 
+.header__logo--animated {
+    animation: moveInBottom .5s ease-out .5s;
+    animation-fill-mode: backwards;
+}
+
