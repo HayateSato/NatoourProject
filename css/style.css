@@ -55,9 +55,9 @@ body {
     height: 3.5rem;
 }
 
-/* .logo:hover {
+.header__logo:hover {
     animation: moveInRight 1s ease-out;
-} */
+} 
 
 .header__text-box {
     position: absolute;
