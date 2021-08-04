@@ -18,6 +18,12 @@
     }
 }
 
+@mixin style-link-text {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-text-light;
+}
+
 
   nav {
     margin: 30px;
@@ -66,9 +72,8 @@
     text-align: center;
     border-radius: 100px;
     width: $width-button;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: $color-text-light;
+    @include style-link-text;
+
   }
   
   .btn-main {
