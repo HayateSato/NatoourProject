@@ -10,9 +10,19 @@
   $width-button: 150px;
   $color-text-light: #fff;
   
+@mixin clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+
   nav {
     margin: 30px;
     background-color: $color-primary
+    
       
   }
   
