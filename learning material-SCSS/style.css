@@ -54,9 +54,7 @@
       }
       
       a:link { //.navigation li a 
-        text-decoration: none;
-        text-transform: uppercase;
-        color: $color-text-dark;
+        @include style-link-text;
       }
     }
   }
