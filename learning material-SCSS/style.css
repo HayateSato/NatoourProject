@@ -18,10 +18,10 @@
     }
 }
 
-@mixin style-link-text {
+@mixin style-link-text($color) {
     text-decoration: none;
     text-transform: uppercase;
-    color: $color-text-light;
+    color: $color;
 }
 
 
