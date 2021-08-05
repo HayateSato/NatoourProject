@@ -24,13 +24,13 @@
     color: $col;
 }
 
-@function($a, $b) {
+@function divide ($a, $b) {
     @return $a / $b;
 }
 
 
   nav {
-    margin: 30px;
+    margin: divide(60 / 2)*1px;
     background-color: $color-primary
 
     @include clearfix; 
