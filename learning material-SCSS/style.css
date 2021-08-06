@@ -9,7 +9,7 @@
   $color-text-dark: #333; //grey
   $width-button: 150px;
   $color-text-light: #fff;
-  $color-text-red: #fefefe; 
+  /* $color-text-red: #fefefe;  */
   
 @mixin clearfix {
     &::after {
@@ -98,3 +98,14 @@
       background-color: lighten($color-secondary, 15%)
     }
   }
+
+  .btn-hot--animated {
+    &:link {
+      background-color: $color-tertiary;
+    }
+  
+    &:hover {
+      background-color: lighten($color-secondary, 15%)
+    }
+  }
+
