@@ -9,6 +9,7 @@
   $color-text-dark: #333; //grey
   $width-button: 150px;
   $color-text-light: #fff;
+  $color-text-red: #fefefe; 
   
 @mixin clearfix {
     &::after {
@@ -30,7 +31,7 @@
 
 
   nav {
-    margin: divide(60 / 2)*1px;
+    margin: divide(60 / 2)*1px; // 30px
     background-color: $color-primary
 
     @include clearfix; 
