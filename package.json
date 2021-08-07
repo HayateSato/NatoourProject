@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HayateSato/NatoourProject/issues"
   },
-  "homepage": "https://github.com/HayateSato/NatoourProject#readme"
+  "homepage": "https://github.com/HayateSato/NatoourProject#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
 }
