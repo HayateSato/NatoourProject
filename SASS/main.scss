@@ -78,34 +78,36 @@ body {
     backface-visibility: hidden;
     /* the usage of this property is normmaly for different purpose but here its used to get rid of the shaking at the end of the animation */
     margin-bottom: 6rem;
+
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+    
+        animation-name: moveInLeft;  
+        /* you need to make the link to which selector you want the animation to happen */
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+       
+        /* 
+        animation-delay: 3s;  //animation happnes three seconds after the reload
+        animation-iteration-count: 3; // animation repeats three times 
+        */
+    }
+    
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.75rem;
+    
+        animation: moveInRight 1s ease-out;
+        /* you can shorten the properties and to have them like this works too */
+    }
 }
 
-.heading-primary--main {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
 
-    animation-name: moveInLeft;  
-    /* you need to make the link to which selector you want the animation to happen */
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-   
-    /* 
-    animation-delay: 3s;  //animation happnes three seconds after the reload
-    animation-iteration-count: 3; // animation repeats three times 
-    */
-}
-
-.heading-primary--sub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.75rem;
-
-    animation: moveInRight 1s ease-out;
-    /* you can shorten the properties and to have them like this works too */
-}
 
 @keyframes moveInLeft {
     0% {
