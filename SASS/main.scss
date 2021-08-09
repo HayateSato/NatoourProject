@@ -6,6 +6,10 @@ $color-primary-dark: #28b485;
 
 $color-grey-dark: #777;
 $color-white: #fff;
+$color-black: #000;
+
+// if you use the same property twice, then its recommended to define it in variable
+
 
 *,
 *::after,
@@ -168,13 +172,13 @@ body {
     /* positive number goes from top to bottom
     so if you want it to go up from bottom, then use negative number  */
 
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    box-shadow: 0 1rem 2rem rgba($color-black, .2);
 }
 
 .btn:active {
     /* :active -> the following happens when you click the btn */
     transform: translateY(-1px);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba($color-black, .2);
 }
 
 .btn--white {
