@@ -37,14 +37,43 @@ html {
   font-size: 62.5%; }
 
 body {
+  box-sizing: border-box; }
+
+body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
   color: #777;
   padding: 3rem;
-  /* 1rem = 10px?? */
-  box-sizing: border-box; }
+  /* 1rem = 10px?? */ }
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  /* the usage of this property is normmaly for different purpose but here its used to get rid of the shaking at the end of the animation */
+  margin-bottom: 6rem; }
+  .heading-primary--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    animation-name: moveInLeft;
+    /* you need to make the link to which selector you want the animation to happen */
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    /* 
+        animation-delay: 3s;  //animation happnes three seconds after the reload
+        animation-iteration-count: 3; // animation repeats three times 
+        */ }
+  .heading-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    animation: moveInRight 1s ease-out;
+    /* you can shorten the properties and to have them like this works too */ }
 
 .btn:link, .btn:visited {
   /* link is called pseude-element. this is used to give special condition to the selected property */
@@ -116,33 +145,6 @@ body {
 /* .header__logo-box:hover {
     animation: moveInRight 1s ease-out;
 }  */
-.heading-primary {
-  color: #fff;
-  text-transform: uppercase;
-  backface-visibility: hidden;
-  /* the usage of this property is normmaly for different purpose but here its used to get rid of the shaking at the end of the animation */
-  margin-bottom: 6rem; }
-  .heading-primary--main {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
-    animation-name: moveInLeft;
-    /* you need to make the link to which selector you want the animation to happen */
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    /* 
-        animation-delay: 3s;  //animation happnes three seconds after the reload
-        animation-iteration-count: 3; // animation repeats three times 
-        */ }
-  .heading-primary--sub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.75rem;
-    animation: moveInRight 1s ease-out;
-    /* you can shorten the properties and to have them like this works too */ }
-
 /* ================================= */
 /* ================================= */
 /* .header__logo {
