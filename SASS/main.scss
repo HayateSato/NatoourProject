@@ -2,7 +2,7 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-@import "base/animations";
+@import "base/animation";
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
@@ -10,16 +10,6 @@
 @import "pages/home";
 
 // write "npm run compile:sass when you want to convert"
-
-$color-primary: #7ed56f;
-$color-primary-light: #55c57a;
-$color-primary-dark: #28b485;
-
-$color-grey-dark: #777;
-$color-white: #fff;
-$color-black: #000;
-
-// if you use the same property twice, then its recommended to define it in variable
 
 
 *,
