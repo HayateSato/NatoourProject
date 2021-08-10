@@ -1,3 +1,5 @@
+
+
 // write "npm run compile:sass when you want to convert"
 
 $color-primary: #7ed56f;
@@ -154,7 +156,6 @@ body {
 }    
 
 .btn {
-
     &:link,
     &:visited {
         /* link is called pseude-element. this is used to give special condition to the selected property */
@@ -167,8 +168,6 @@ body {
         position: relative;
         font-size: 1.6rem;
     }
-    
-    
     &:hover {
         transform: translateY(-3px);
     
@@ -182,13 +181,11 @@ body {
             opacity: 0;
         } 
     }
-    
     &:active {
         /* :active -> the following happens when you click the btn */
         transform: translateY(-1px);
         box-shadow: 0 .5rem 1rem rgba($color-black, .2);
     }
-    
     &--white {
         background-color: $color-white;
         color: $color-grey-dark;
@@ -196,7 +193,6 @@ body {
             background-color: $color-white;
         }
     }
-    
     &::after {
         content: "";
         display: inline-block;
@@ -208,14 +204,15 @@ body {
         left: 0;
         z-index: -1;
         transition: all .4s;
-        
     }
-    
     &--animated {
         animation: moveInBottom .5s ease-out .5s;
         animation-fill-mode: backwards;
     }
 }
+
+
+
 
 
 
