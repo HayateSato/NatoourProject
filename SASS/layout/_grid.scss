@@ -1,8 +1,7 @@
 .row {
-    max-width: 114rem;
+    max-width: $grid-width;
     background-color: #eee;
     margin: 0 auto; //this is used when you want to center an item in scss/css
-    margin-bottom: 80px;
-
+    margin-bottom: $gutter-vertical;
 }
 
