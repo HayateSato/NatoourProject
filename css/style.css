@@ -142,6 +142,11 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+.row {
+  max-width: 114rem;
+  background-color: #eee;
+  margin: 0 auto; }
+
 /* ================================= */
 /* ================================= */
 /* .header__logo {
