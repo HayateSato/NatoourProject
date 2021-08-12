@@ -75,6 +75,15 @@ body {
     animation: moveInRight 1s ease-out;
     /* you can shorten the properties and to have them like this works too */ }
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #55c57a, #28b485);
+  -webkit-background-clip: text;
+  color: transparent; }
+
 .btn:link, .btn:visited {
   /* link is called pseude-element. this is used to give special condition to the selected property */
   text-transform: uppercase;
