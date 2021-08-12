@@ -3,9 +3,9 @@
     background-color: #eee;
     margin: 0 auto; //this is used when you want to center an item in scss/css
 
-    &:not(:last-child){// we select everything but this one with "not" 
-        margin-bottom: $gutter-vertical;
-    }
+     &:not(:last-child){// we select everything but this one with "not" 
+         margin-bottom: $gutter-vertical;
+     }
 
     @include clearfix;
 
