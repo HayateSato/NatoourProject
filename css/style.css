@@ -89,6 +89,9 @@ body {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: -5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.u-center-text {
+  text-align: center; }
+
 .btn:link, .btn:visited {
   /* link is called pseude-element. this is used to give special condition to the selected property */
   text-transform: uppercase;
