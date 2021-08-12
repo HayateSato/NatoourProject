@@ -92,6 +92,9 @@ body {
 .u-center-text {
   text-align: center; }
 
+.u-margin-bottom-8 {
+  margin-bottom: 8rem; }
+
 .btn:link, .btn:visited {
   /* link is called pseude-element. this is used to give special condition to the selected property */
   text-transform: uppercase;
