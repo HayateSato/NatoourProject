@@ -59,7 +59,11 @@
 .btn-text {
     &:link, 
     &:visited {
-
+        color: $color-primary;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid $color-primary;
+        padding: 3px;
     }
 
     &:hover {
@@ -67,6 +71,6 @@
     }
 
     &:active {
-        
+
     }
 }
