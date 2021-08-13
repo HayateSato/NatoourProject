@@ -59,6 +59,7 @@
 .btn-text {
     &:link, 
     &:visited {
+        font-size: 1.6rem;
         color: $color-primary;
         display: inline-block;
         text-decoration: none;

@@ -159,6 +159,7 @@ body {
   animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
+  font-size: 1.6rem;
   color: #7ed56f;
   display: inline-block;
   text-decoration: none;
