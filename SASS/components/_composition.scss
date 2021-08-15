@@ -24,10 +24,19 @@
         }
 
         &:hover {
-            outline: 1.5rem solid $color-praimary;
+            outline: 1.5rem solid $color-primary;
             transform: scale(1.05);
             box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
             z-index: 20;
         }
     }
+
+    &:hover &__photo:not(:hover) {
+        transform: scale(.95);
+
+    }
+    //composition:hover composition__photo:not(hover) 
 }
+
+
+
