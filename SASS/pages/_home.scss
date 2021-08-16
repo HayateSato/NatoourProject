@@ -12,8 +12,8 @@
         rgba($color-primary-dark, 0.8)),
         url(../img/nat-4.jpg);
     background-size: cover;
-
     transform: skewY(-7deg); //tilting the whole section 
+    margin-top: -10rem;
 
     & > * { //choosing only the direct child, but not the entire child. direct child here is .row -> refer to html
         //direct child selects only th efirst child that comes across 
