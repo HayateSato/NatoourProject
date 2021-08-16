@@ -15,7 +15,8 @@
 
     transform: skewY(-7deg); //tilting the whole section 
 
-    & > * { //choosing only the direct child, but not the entire child. direct child here is .row -> refer to html 
+    & > * { //choosing only the direct child, but not the entire child. direct child here is .row -> refer to html
+        //direct child selects only th efirst child that comes across 
         transform: skewY(7deg);
     }
 
