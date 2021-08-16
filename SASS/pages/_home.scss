@@ -15,5 +15,9 @@
 
     transform: skewY(-7deg); //tilting the whole section 
 
+    & > * { //choosing only the direct child, but not the entire child. direct child here is .row -> refer to html 
+        transform: skewY(7deg);
+    }
 
+    // & > * is equals to .section-features * 
 }
