@@ -177,6 +177,13 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translate(0); }
 
+.card {
+  background-color: orangered;
+  height: 50rem;
+  transition: all .8s; }
+  .card:hover {
+    transform: rotateY(180deg); }
+
 .composition {
   position: relative; }
   .composition__photo {
@@ -283,7 +290,7 @@ body {
     transform: skewY(7deg); }
 
 .section-tours {
-  background-color: .section-tours color-grey-light-1;
+  background-color: #f7f7f7;
   padding: 25rem 0 50rem;
   margin-top: -10rem; }
 
