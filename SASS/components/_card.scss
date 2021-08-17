@@ -2,6 +2,7 @@
     perspective: 150rem;
     -moz-perspective: 150rem; //this enable to work on firefox too. not relavant for other browesers, maybe?        
     //for perspective, the lower the value, the more dramatic the effect will be greater.
+    position: relative;
 
     &__side {
         background-color: orangered;
@@ -9,6 +10,12 @@
         font-size: 2rem;
         height: 50rem;
         transition: all .8s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden; //this hides whats in the beneath the layer
+
 
         &--front {
             background-color: orangered;
@@ -18,16 +25,14 @@
             background-color: green;
             transform: rotateY(180deg); //it has to start with 180deg rototated because this is supposed to be the backside
         }
-
     }
 
     &:hover &__side--front {     //.card:hover .card__side { }
         transform: rotateY(180deg);
     }
-    
+
     &:hover &__side--back {     //.card:hover .card__side { }
         transform: rotateY(0); // as it was already 180deg before the rotation here, it has to go back to 0deg
     }
-
  
 }
