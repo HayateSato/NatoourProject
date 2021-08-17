@@ -1,6 +1,7 @@
 .card {
     perspective: 150rem;
-    -moz-perspective: 150rem; //this enable to work on firefox too. not relavant for other browesers, maybe?
+    -moz-perspective: 150rem; //this enable to work on firefox too. not relavant for other browesers, maybe?        
+    //for perspective, the lower the value, the more dramatic the effect will be greater.
 
     &__side {
         background-color: orangered;
@@ -8,6 +9,16 @@
         font-size: 2rem;
         height: 50rem;
         transition: all .8s;
+
+        &--front {
+
+        }
+
+        &--back {
+
+            
+        }
+
     }
 
     &:hover &__side {     //.card:hover .card__side { }
