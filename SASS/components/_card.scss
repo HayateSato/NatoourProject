@@ -11,18 +11,22 @@
         transition: all .8s;
 
         &--front {
-
+            background-color: orangered;
         }
 
         &--back {
-
-            
+            background-color: green;
+            transform: rotateY(180deg); //it has to start with 180deg rototated because this is supposed to be the backside
         }
 
     }
 
-    &:hover &__side {     //.card:hover .card__side { }
+    &:hover &__side--front {     //.card:hover .card__side { }
         transform: rotateY(180deg);
+    }
+    
+    &:hover &__side--back {     //.card:hover .card__side { }
+        transform: rotateY(0); // as it was already 180deg before the rotation here, it has to go back to 0deg
     }
 
  
