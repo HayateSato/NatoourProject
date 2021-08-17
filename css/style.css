@@ -282,6 +282,11 @@ body {
   .section-features > * {
     transform: skewY(7deg); }
 
+.section-tours {
+  background-color: .section-tours color-grey-light-1;
+  padding: 25rem 0 50rem;
+  margin-top: -10rem; }
+
 /* ================================= */
 /* ================================= */
 /* .header__logo {
