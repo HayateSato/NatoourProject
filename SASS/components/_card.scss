@@ -23,9 +23,13 @@
         }
 
         &--back {
-            background-color: green;
             transform: rotateY(180deg); //it has to start with 180deg rototated because this is supposed to be the backside
+
+            &-1 {
+                background-color: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+            }
         }
+
     }
 
     &:hover &__side--front {     //.card:hover .card__side { }
