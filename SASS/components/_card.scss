@@ -18,7 +18,7 @@
         width: 100%;
         backface-visibility: hidden; //this hides whats in the beneath the layer
         border-radius: 3px;
-        overflow: hidden; 
+        overflow: hidden; //this allows you not to show what going over the size of this parent element, the poinng corer will be truncated and shaped off as round
         box-shadow: $shadow-1; //replace other shadow with the variable as well!!!!!
 
 
@@ -51,6 +51,9 @@
         background-size: cover;
         height: 23rem;
         background-blend-mode: screen;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); 
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); //polygon(Xdirection Ydirection, X Y, X Y, X Y)
+         
 
 
         &--1 {
