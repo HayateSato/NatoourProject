@@ -18,6 +18,7 @@
         width: 100%;
         backface-visibility: hidden; //this hides whats in the beneath the layer
         border-radius: 3px;
+        overflow: hidden; 
         box-shadow: $shadow-1; //replace other shadow with the variable as well!!!!!
 
 
