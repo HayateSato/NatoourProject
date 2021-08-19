@@ -47,7 +47,12 @@
 
     //FRONT SIDE STYLING
     &__picture {
-        
+
+
+        &--1 {
+            background-image: url(../img/nat-5.jpg); //you are going up 1 level by .. because this will be prtinted in css folder, which is in 1 level deepr
+        }
+
     }
  
 }
