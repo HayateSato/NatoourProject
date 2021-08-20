@@ -67,6 +67,7 @@
         font-weight: 300;
         text-transform: uppercase; 
         text-align: right;
+        color: $color-white;
         position: absolute; 
         top: 12rem;
         right: 2rem;
@@ -76,7 +77,8 @@
     &__heading-span {
         padding: 1rem 1.5rem;
         -webkit-box-decoration-break: clone; //it dosent work on Chrome so you need to add this prefix
-        box-decoration-break: clone;
+        box-decoration-break: clone; //this is to add padding for both end, at the beginning and the ending
+
         &--1 {
             background-image: linear-gradient(to right bottom, 
             rgba($color-secondary-light, 85), 
