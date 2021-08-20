@@ -1,5 +1,4 @@
 .card {
-
     //FUNCTIONALITY
     perspective: 150rem;
     -moz-perspective: 150rem; //this enable to work on firefox too. not relavant for other browesers, maybe?        
@@ -21,8 +20,6 @@
         overflow: hidden; //this allows you not to show what going over the size of this parent element, the poinng corer will be truncated and shaped off as round
         box-shadow: $shadow-1; //replace other shadow with the variable as well!!!!!
 
-
-
         &--front {
             background-color: $color-white;
             color: green;
@@ -35,7 +32,6 @@
                 background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
             }
         }
-
     }
 
     &:hover &__side--front {     //.card:hover .card__side { }
@@ -53,8 +49,6 @@
         background-blend-mode: screen;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); 
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); //polygon(Xdirection Ydirection, X Y, X Y, X Y)
-         
-
 
         &--1 {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
@@ -66,7 +60,15 @@
         &--3 {
             background-image: url(../img/nat-5.jpg); //you are going up 1 level by .. because this will be prtinted in css folder, which is in 1 level deepr
         }
+    }
+
+    &__heading {
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase; 
 
     }
+
+
  
 }
