@@ -74,7 +74,9 @@
     }
 
     &__heading-span {
-
+        padding: 1rem 1.5rem;
+        -webkit-box-decoration-break: clone; //it dosent work on Chrome so you need to add this prefix
+        box-decoration-break: clone;
         &--1 {
             background-image: linear-gradient(to right bottom, 
             rgba($color-secondary-light, 85), 
