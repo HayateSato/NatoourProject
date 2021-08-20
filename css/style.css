@@ -234,6 +234,13 @@ body {
     box-decoration-break: clone; }
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, #ffb900, rgba(255, 119, 48, 0.85)); }
+  .card__details ul {
+    list-style: none;
+    width: 80%; }
+    .card__details ul li {
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 1rem; }
 
 .composition {
   position: relative; }
