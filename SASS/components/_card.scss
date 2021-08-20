@@ -4,12 +4,12 @@
     -moz-perspective: 150rem; //this enable to work on firefox too. not relavant for other browesers, maybe?        
     //for perspective, the lower the value, the more dramatic the effect will be greater.
     position: relative;
-    height: 50rem;
+    height: 52rem;
 
     &__side {
         color: #fff;
         font-size: 2rem;
-        height: 50rem;
+        height: 52rem;
         transition: all .8s ease;
         position: absolute;
         top: 0;
@@ -87,10 +87,12 @@
     }
 
     &__details {
+        padding: 3rem;
 
         ul{
             list-style: none;
             width: 80%;
+            margin: 0 auto;
 
             li {
                 text-align: center;
@@ -98,7 +100,7 @@
                 padding: 1rem;
 
                 &:not(:last-child) {
-                    border-radius: ;
+                    border-bottom: 1px solid $color-grey-light2;
                 }
             }
         }
