@@ -29,13 +29,19 @@
             transform: rotateY(180deg); //it has to start with 180deg rototated because this is supposed to be the backside
 
             &-1 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+                background-image: linear-gradient(to right bottom, 
+                $color-secondary-light, 
+                $color-secondary-dark);
             }
             &-2 {
-                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+                background-image: linear-gradient(to right bottom, 
+                $color-primary-light, 
+                $color-primary-dark);
             }
             &-3 {
-                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+                background-image: linear-gradient(to right bottom, 
+                $color-tertiary-light, 
+                $color-tertiary-dark);
             }
         }
     }
@@ -57,15 +63,18 @@
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); //polygon(Xdirection Ydirection, X Y, X Y, X Y)
 
         &--1 {
-            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+            background-image: linear-gradient(to right bottom, 
+            $color-secondary-light, $color-secondary-dark),
             url(../img/nat-5.jpg); //you are going up 1 level by .. because this will be prtinted in css folder, which is in 1 level deepr
         }
         &--2 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
+            background-image: linear-gradient(to right bottom, 
+            $color-primary-light, $color-primary-dark), 
             url(../img/nat-6jpg); //you are going up 1 level by .. because this will be prtinted in css folder, which is in 1 level deepr
         }
         &--3 {
-            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark),
+            background-image: linear-gradient(to right bottom, 
+            $color-tertiary-light, $color-tertiary-dark),
             url(../img/nat-7.jpg); //you are going up 1 level by .. because this will be prtinted in css folder, which is in 1 level deepr
         }
     }
@@ -91,6 +100,16 @@
             background-image: linear-gradient(to right bottom, 
             rgba($color-secondary-light, 85), 
             rgba($color-secondary-dark, .85));
+        }
+        &--2 {
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-primary-light, 85), 
+            rgba($color-primary-dark, .85));
+        }
+        &--3 {
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-tertiary-light, 85), 
+            rgba($color-tertiary-dark, .85));
         }
     }
 
