@@ -13,10 +13,11 @@
         background-color: orangered;
         float: left; //when floating left, remember that it has to have width and height defined
         -webkit-shape-outside: circle(50% at 50% 50%);
-        shape-outside: circle(50% at 50% 50%); //(radius% at ?% ?%)
-
+        shape-outside: circle(50% at 50% 50%); //(radius% at ?% ?%)  
+        //this defines only where the content flows around the element
         -webkit-clip-path:  circle(50% at 50% 50%); 
         clip-path:  circle(50% at 50% 50%); 
+        // you need to use clip-path property if you want an element to look in certain shape
     }
 
 
