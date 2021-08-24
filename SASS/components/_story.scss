@@ -12,8 +12,8 @@
         height: 15rem;
         background-color: orangered;
         float: left;
-
-
+        shape-outside: circle(50% at 50% 50%); //(radius% at ?% ?%)
+        
     }
 
 
