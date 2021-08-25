@@ -9,9 +9,9 @@
     font-size: $default-font-size;
     transform: skewX(-12deg);
 
-    & > * {
-        transform: skewX(12deg);
-    }
+    // & > * {
+    //     transform: skewX(12deg);
+    // }
 
     &__shape {
         width: 15rem;
@@ -23,7 +23,7 @@
         -webkit-clip-path:  circle(50% at 50% 50%); 
         clip-path:  circle(50% at 50% 50%); 
         // you need to use clip-path property if you want an element to look in certain shape
-        transform: translateY(-3rem);
+        transform: translateY(-3rem) skewX(12deg);;
         
     }
 
@@ -33,7 +33,7 @@
     }
 
     &__text {
-        
+        transform: skewX(12deg);
     }
 
 }
