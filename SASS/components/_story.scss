@@ -18,6 +18,7 @@
         -webkit-clip-path:  circle(50% at 50% 50%); 
         clip-path:  circle(50% at 50% 50%); 
         // you need to use clip-path property if you want an element to look in certain shape
+        transform: translateY(-3rem);
     }
 
 
