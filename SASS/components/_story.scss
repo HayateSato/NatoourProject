@@ -48,6 +48,11 @@
         text-align: center;
         opacity: 0;
     }
+
+    &:hover &__caption {
+        opacity: 1;
+        transform: translateY(-50%);
+    }
 }
 
 
