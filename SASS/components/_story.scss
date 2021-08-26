@@ -25,8 +25,7 @@
         // you need to use clip-path property if you want an element to look in certain shape
         transform: translateY(-3rem) skewX(12deg);
         margin-right: 4rem; //I added this 
-        position: relative;
-        
+        position: relative;  
     }
 
     &__img {
@@ -42,7 +41,8 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        translate ()
+        transform: translte(-50%, -50%);
+        color: $color-white;
     }
 
 }
