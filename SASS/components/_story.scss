@@ -24,8 +24,9 @@
         clip-path:  circle(50% at 50% 50%); 
         // you need to use clip-path property if you want an element to look in certain shape
         transform: translateY(-3rem) skewX(12deg);
-        margin-right: 4rem; //I added this 
+        margin-right: 3rem; //I added this 
         position: relative;  
+        backface-visibility: hidden;
     }
 
     &__img {
@@ -33,6 +34,7 @@
         transform: translateX(-4rem) //without this the img is off-centered
         scale(1.4); 
         backface-visibility: hidden;
+        transition: all .5s;
     }
 
     &__text {
@@ -60,7 +62,7 @@
 
     &:hover &__img {
         transform: translateX(-4rem) scale(1);
-        
+
 
     }
 }

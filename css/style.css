@@ -350,12 +350,14 @@ body {
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     transform: translateY(-3rem) skewX(12deg);
-    margin-right: 4rem;
-    position: relative; }
+    margin-right: 3rem;
+    position: relative;
+    backface-visibility: hidden; }
   .story__img {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
-    backface-visibility: hidden; }
+    backface-visibility: hidden;
+    transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
   .story__caption {
