@@ -30,7 +30,8 @@
 
     &__img {
         height: 100%; //defining width will leave the empty space at the bottom becaue the img is wider horizontaly and shorter vertically. so adjust it with the verticcal hegit
-        transform: translateX(-4rem);
+        transform: translateX(-4rem); //without this the img is off-centered
+        backface-visibility: hidden;
     }
 
     &__text {
@@ -55,6 +56,10 @@
         opacity: 1;
         transform: translate(-50%, -50%);
     } 
+
+    &:hover &__img {
+
+    }
 }
 
 
