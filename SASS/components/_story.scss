@@ -30,7 +30,7 @@
 
     &__img {
         height: 100%; //defining width will leave the empty space at the bottom becaue the img is wider horizontaly and shorter vertically. so adjust it with the verticcal hegit
-
+        transform: translateX(-4rem);
     }
 
     &__text {
