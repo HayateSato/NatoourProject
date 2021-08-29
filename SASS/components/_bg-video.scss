@@ -6,10 +6,13 @@
     width: 100%;
     z-index: -1;
     opacity: .15; //opacity 1 being the completely visible and 0 being invisible"
+    overflow: hidden;
 
     &__content {
         height: 100%;
         width: 100%;
         object-fit: cover; //this allows the child element to vover the entire partent 
+        // alternatively you can choose to use "fill" or "contain" for its property then it shows differently 
+
     }
 }
