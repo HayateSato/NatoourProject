@@ -42,8 +42,18 @@
 }
 
 .book {
-    background-image: url(../img/nat-10.jpg);
+    //solid color grandient
+    //linear-gradient (ANGLE deg, color1 GRADIENT %, color2 GRADIENT%, color3 GRADIENT%, img)
+    //ANGLE is the degree against x dirention = horizontal line.
+    //GRADIENT% is starting point in width, where you want the color to to be faded in
+    background-image: linear-gradient(105deg, 
+                                    rgba($color-white, .9) 0%, 
+                                    rgba($color-white, .9) 50%, 
+                                    orangered 50%), 
+                                    url(../img/nat-10.jpg);
+
     background-size: 100%; //you can also just say cover = 100%
+    // this deterins the size of the img, not the box/section/elemt made for the img to be inserted
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
