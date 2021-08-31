@@ -12,6 +12,12 @@
         border: none;
     }
 
+    &__label:focus {
+        outline: none; //outline is the hieghlighted color along the form-box when you select 
+    }
+
+
+
     &__label {
 
     }
