@@ -15,7 +15,7 @@
         display: block;
     }
 
-    &__label:focus { 
+    &__input:focus { 
         outline: none; //outline is the hieghlighted color along the form-box when you select 
         box-shadow:0 1rem 2rem rgba($color-black, .1); //you need to let the user know where they are selecting if you are disable the outline effect
         border-bottom: 3px solid $color-primary;
