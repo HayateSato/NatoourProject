@@ -21,6 +21,11 @@
         border-bottom: 3px solid $color-primary;
     }
 
+    &::-webkit-input-placeholder { //:: represents something that is not shown/existing on the page on default
+        color: ;
+
+    }
+
     &__label {
 
     }
