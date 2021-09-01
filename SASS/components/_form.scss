@@ -26,6 +26,10 @@
         }    
     }
 
+    &:focus:invalid { //invalid =. this will be in effect only when the input is invliad
+
+    }
+
 
     &__label {
 
