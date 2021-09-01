@@ -21,15 +21,14 @@
             border-bottom: 3px solid $color-primary;
         }
 
+        &:focus:invalid { //invalid =. this will be in effect only when the input is invliad
+            border-bottom: 3px solid $color-secondary-dark;
+        }    
+
         &::-webkit-input-placeholder { //:: represents something that is not shown/existing on the page on default
             color: $color-grey-dark-2;
         }    
     }
-
-    &:focus:invalid { //invalid =. this will be in effect only when the input is invliad
-
-    }
-
 
     &__label {
 
