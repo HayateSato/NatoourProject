@@ -38,11 +38,12 @@
         display: block;
     }
 
-    &__input:placeholder-shown &__label {  //this only works if there is no element between __input and __label in html file & = form-group
+    &__input:placeholder-shown + &__label {  //this only works if there is no selecter between __input and __label in html file & = form-group
+        // in this example, input and lable are called sibiling selecters
         // if there is something in between then you need to write as below
         // &__input:placeholder-shown ~ &__label
-       
-
+        opacity: 0;
+        visibility: hidden; 
     }
 }
 
