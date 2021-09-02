@@ -45,6 +45,7 @@
         // &__input:placeholder-shown ~ &__label
         opacity: 0;
         visibility: hidden; 
+        transform: translateY(-4rem); //this is so that the placeholder fade out from to bottom
     }
 }
 
