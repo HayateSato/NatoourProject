@@ -14,6 +14,7 @@
         border-bottom: 3px solid transparent; //wihtout this, the box moves by 3px when they select because you add border-bottom in &__lable:focus 
         width: 90%;
         display: block;
+        transition: all .3s;
 
         &:focus { 
             outline: none; //outline is the hieghlighted color along the form-box when you select 
@@ -45,7 +46,7 @@
         // &__input:placeholder-shown ~ &__label
         opacity: 0;
         visibility: hidden; 
-        transform: translateY(-4rem); //this is so that the placeholder fade out from to bottom
+        transform: translateY(-4rem); //this is so that the lable comes in behind from the input box
     }
 }
 
