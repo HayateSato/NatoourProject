@@ -48,6 +48,11 @@
         visibility: hidden; 
         transform: translateY(-4rem); //this is so that the lable comes in behind from the input box
     }
+
+    &__radio-group {
+        width: 50%;
+        
+    }
 }
 
 
