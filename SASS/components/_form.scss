@@ -59,8 +59,12 @@
         cursor: pointer;
     }
 
-    $__radio-button {
-        
+    &__radio-button {
+
+
+        &::after {
+            
+        }
     }
 }
 
