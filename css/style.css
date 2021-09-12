@@ -401,6 +401,9 @@ body {
   position: absolute;
   left: 0;
   top: 0; }
+  .form__radio-button::after {
+    content: "";
+    display: block; }
 
 .story {
   width: 75%;

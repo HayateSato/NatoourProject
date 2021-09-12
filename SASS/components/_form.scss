@@ -71,8 +71,11 @@
         left: 0;
         top: 0;
 
-
         &::after {
+            content: "";
+            display: block;
+            //every psuedo element, you need to define content element(empty) and display element
+
 
         }
     }
