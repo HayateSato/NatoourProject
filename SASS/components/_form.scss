@@ -75,8 +75,8 @@
             content: "";
             display: block;
             //every psuedo element, you need to define content element(empty) and display element
-
-
+            height: 1rem; 
+            width: 1rem; 
         }
     }
 }
