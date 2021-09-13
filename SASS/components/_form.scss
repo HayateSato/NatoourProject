@@ -86,6 +86,12 @@
             opacity: 0;
         }
     }
+
+
+    &__radio-input:checked ~ &__radio-label &__radio-button::after {
+        // ~ means the direct element right afer what you selected 
+
+    }
 }
 
 
