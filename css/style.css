@@ -406,7 +406,8 @@ body {
     display: block;
     height: 1rem;
     width: 1rem;
-    border-radius: 50%; }
+    border-radius: 50%;
+    position: absolute; }
 
 .story {
   width: 75%;
