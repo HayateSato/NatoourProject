@@ -40,6 +40,10 @@
         transition: all .3s;
     }
 
+    &__radio-input {
+        display: none;
+    }
+    
     &__input:placeholder-shown + &__label {  //this only works if there is no selecter between __input and __label in html file & = form-group
         // in this example, input and lable are called sibiling selecters
         // if there is something in between then you need to write as below
@@ -93,9 +97,6 @@
         // ~ means the direct child right afer what you selected 
         // radio-input (checked version) ~ &__direct child element = radio-label &__direct child = radio-button
         opacity: 1;
-
-
-
     }
 }
 
