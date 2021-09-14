@@ -11,7 +11,13 @@
         transition: all .2s;
         position: relative;
         font-size: $default-font-size;
+
+        //change for the <button> element
+        border: none;
+
+
     }
+
     &:hover {
         transform: translateY(-3px);
     
