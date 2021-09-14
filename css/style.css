@@ -117,7 +117,7 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem; }
 
-.btn:link, .btn:visited {
+.btn, .btn:link, .btn:visited {
   /* link is called pseude-element. this is used to give special condition to the selected property */
   text-transform: uppercase;
   text-decoration: none;

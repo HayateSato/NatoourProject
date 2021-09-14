@@ -1,5 +1,6 @@
 
 .btn {
+    &, //this will make sure that non-psuedo element will be applied too
     &:link,
     &:visited {
         /* link is called pseude-element. this is used to give special condition to the selected property */
