@@ -34,8 +34,11 @@
             opacity: 0;
         } 
     }
-    &:active {
-        /* :active -> the following happens when you click the btn */
+    &:active,
+    &:focus {
+        // :active -> the following happens when you click the btn 
+        // focus is the outline that is shown when you select on the browser
+        outline: none;
         transform: translateY(-1px);
         box-shadow: 0 .5rem 1rem rgba($color-black, .2);
     }
