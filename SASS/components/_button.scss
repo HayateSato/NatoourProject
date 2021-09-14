@@ -16,17 +16,12 @@
         //change for the <button> element
         border: none;
         cursor: pointer;
-
-
-
     }
 
     &:hover {
         transform: translateY(-3px);
-    
         /* positive number goes from top to bottom
         so if you want it to go up from bottom, then use negative number  */
-    
         box-shadow: 0 1rem 2rem rgba($color-black, .2);
     
         &::after {
@@ -34,6 +29,7 @@
             opacity: 0;
         } 
     }
+
     &:active,
     &:focus {
         // :active -> the following happens when you click the btn 
@@ -51,7 +47,6 @@
         }
     }
     
-
     &--green {
         background-color: $color-primary;
         color: $color-white;
