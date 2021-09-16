@@ -40,8 +40,15 @@
             text-decoration: none;
             text-transform: uppercase;
             display: inline-block;
-
         }
+
+        &:hover,
+        &:active {
+            color: $color-primary;
+            
+        }
+
+
 
 
     }
