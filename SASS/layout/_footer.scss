@@ -21,7 +21,6 @@
 
     &__list {
         list-style: none;
-
     }
 
 
@@ -31,11 +30,15 @@
         &:not(:last-child) {
             margin-right: 1.5rem;
         }
-
     }
 
 
     &__link {
+        &:link,
+        &:visited {
+            color: $color-grey-light-1;
+
+        }
 
 
     }
